@@ -7,14 +7,14 @@ public class CalculatorTest {
     @Test
     public void addTest(){
         //arrange
-        float result = 7;
-        float number1 = 2;
-        float number2 = 5;
+        double result = -2.5;
+        double number1 = 2.5;
+        double number2 = -5;
 
         Calculator calculator = new Calculator();
 
         //act
-        float calc = calculator.add(number1,number2);
+        double calc = calculator.add(number1,number2);
 
         //assert
         assertEquals(result, calc);
