@@ -19,4 +19,20 @@ public class CalculatorTest {
         //assert
         assertEquals(result, calc);
     }
+
+    @Test
+    public void multiplyTest(){
+        //arrange
+        double result = -2.5;
+        double number1 = 2.5;
+        double number2 = -5;
+
+        Calculator calculator = new Calculator();
+
+        //act
+        double calc = calculator.multiply(number1,number2);
+
+        //assert
+        assertEquals(result, calc);
+    }
 }
