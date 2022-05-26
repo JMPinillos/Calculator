@@ -7,9 +7,9 @@ public class CalculatorTest {
     @Test
     public void addTest(){
         //arrange
-        double result = -2.5;
-        double number1 = 2.5;
-        double number2 = -5;
+        double result = 7;
+        double number1 = 2;
+        double number2 = 5;
 
         Calculator calculator = new Calculator();
 
@@ -19,6 +19,4 @@ public class CalculatorTest {
         //assert
         assertEquals(result, calc);
     }
-
-
 }
