@@ -23,9 +23,9 @@ public class CalculatorTest {
     @Test
     public void multiplyTest(){
         //arrange
-        double result = -2.5;
-        double number1 = 2.5;
-        double number2 = -5;
+        double result = 8.1;
+        double number1 = 10;
+        double number2 = 1.9;
 
         Calculator calculator = new Calculator();
 

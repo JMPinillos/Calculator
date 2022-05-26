@@ -3,7 +3,7 @@ public class Calculator {
         return num1 + num2;
     }
 
-    public float multiply(){
+    public float multiply(double num1, double num2){
         return 0;
     }
 }
