@@ -4,6 +4,6 @@ public class Calculator {
     }
 
     public float multiply(){
-        return;
+        return 0;
     }
 }
