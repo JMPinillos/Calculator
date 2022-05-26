@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo la clase Calculator." />
+    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo el test de resta">
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="subtract" />
+        <entry key="$PROJECT_DIR$" value="multiply" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653493301277</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creo el test de resta">
+      <created>1653590079712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653590079712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,7 +120,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/subtract" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -120,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="He creado la clase CalculatorTest, que sera la encargada de realizar las pruebas de nuestro programa.&#10;Tambien he introducido el metodo addTest, que se encarga de realizar las pruebas de suma." />
     <MESSAGE value="Creo la clase Calculator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo la clase Calculator." />
+    <MESSAGE value="Creo el test de resta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo el test de resta" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
