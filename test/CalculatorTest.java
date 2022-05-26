@@ -19,6 +19,8 @@ public class CalculatorTest {
         //assert
         assertEquals(result, calc);
     }
+
+    //METODO QUE COMPRUEBA SI LA RESTA DE DOS NUMEROS ES CORRECTA
     @Test
     public void subtractTest(){
         //arrange
@@ -30,6 +32,23 @@ public class CalculatorTest {
 
         //act
         float calc = calculator.subtract(number1,number2);
+
+        //assert
+        assertEquals(result, calc);
+    }
+
+    //METODO QUE COMPRUEBA SI LA MULTIPLICACION DE DOS NUMEROS ES CORRECTA
+    @Test
+    public void multiplyTest(){
+        //arrange
+        double result = 19;
+        double number1 = 10;
+        double number2 = 1.9;
+
+        Calculator calculator = new Calculator();
+
+        //act
+        double calc = calculator.multiply(number1,number2);
 
         //assert
         assertEquals(result, calc);
