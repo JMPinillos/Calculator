@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Inserto la multiplicación al trabajo final">
+    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo la clase Calculator.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +21,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="multiply" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,30 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.addTest">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager">
     <configuration name="CalculatorTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,9 +61,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.addTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.addTest" />
         <item itemvalue="JUnit.CalculatorTest.addTest" />
       </list>
     </recent_temporary>
@@ -106,42 +88,7 @@
       <option name="project" value="LOCAL" />
       <updated>1653493301277</updated>
     </task>
-    <task id="LOCAL-00003" summary="He implementado el método sumar y funciona correctamente.">
-      <created>1653493466119</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1653493466119</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.">
-      <created>1653494788212</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1653494788212</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.">
-      <created>1653494798048</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1653494798048</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Inserto la multiplicación al trabajo final">
-      <created>1653590834830</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1653590834830</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Inserto la multiplicación al trabajo final">
-      <created>1653590898920</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1653590898920</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,19 +96,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -170,10 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="He creado la clase CalculatorTest, que sera la encargada de realizar las pruebas de nuestro programa.&#10;Tambien he introducido el metodo addTest, que se encarga de realizar las pruebas de suma." />
     <MESSAGE value="Creo la clase Calculator." />
-    <MESSAGE value="He implementado el método sumar y funciona correctamente." />
-    <MESSAGE value="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma." />
-    <MESSAGE value="Inserto la multiplicación al trabajo final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserto la multiplicación al trabajo final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo la clase Calculator." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
