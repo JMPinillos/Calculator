@@ -19,4 +19,19 @@ public class CalculatorTest {
         //assert
         assertEquals(result, calc);
     }
+    @Test
+    public void subtractTest(){
+        //arrange
+        float result = 5;
+        float number1 = 10;
+        float number2 = 5;
+
+        Calculator calculator = new Calculator();
+
+        //act
+        float calc = calculator.subtract(number1,number2);
+
+        //assert
+        assertEquals(result, calc);
+    }
 }
