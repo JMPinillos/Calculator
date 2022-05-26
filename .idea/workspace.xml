@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
