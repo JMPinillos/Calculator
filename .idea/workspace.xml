@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator">
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653588770571</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1653592255553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653592255553</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1653592374024</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653592374024</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator">
+      <created>1653592451542</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653592451542</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +195,9 @@
     <MESSAGE value="He implementado el método sumar y funciona correctamente." />
     <MESSAGE value="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma." />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
