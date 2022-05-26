@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculatorTest.java" afterDir="false" />
     </list>

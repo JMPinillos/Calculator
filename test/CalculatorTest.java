@@ -20,6 +20,22 @@ public class CalculatorTest {
         //assert
         assertEquals(result, calc);
     }
+    //METODO QUE COMPRUEBA SI LA RESTA DE DOS NUMEROS ES CORRECTA
+    @Test
+    public void subtractTest(){
+        //arrange
+        float result = 5;
+        float number1 = 10;
+        float number2 = 5;
+
+        Calculator calculator = new Calculator();
+
+        //act
+        float calc = calculator.subtract(number1,number2);
+
+        //assert
+        assertEquals(result, calc);
+    }
 
     //METODO QUE COMPRUEBA SI LA DIVISION DE DOS NUMEROS ES CORRECTA
     @Test
