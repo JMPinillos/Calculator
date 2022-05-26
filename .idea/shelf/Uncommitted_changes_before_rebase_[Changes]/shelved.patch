@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fa4d9248-43ee-4335-9160-26c17c086ef5\" name=\"Changes\" comment=\"Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"divide\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"29f6v3zw2F1Et8lp0qbhYghM0of\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration name=\"CalculatorTest.addTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Calculator\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"CalculatorTest\" />\n      <option name=\"METHOD_NAME\" value=\"addTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CalculatorTest.addTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fa4d9248-43ee-4335-9160-26c17c086ef5\" name=\"Changes\" comment=\"\" />\n      <created>1653492028699</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1653492028699</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"He creado la clase CalculatorTest, que sera la encargada de realizar las pruebas de nuestro programa.&#10;Tambien he introducido el metodo addTest, que se encarga de realizar las pruebas de suma.\">\n      <created>1653493195782</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653493195782</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Creo la clase Calculator.\">\n      <created>1653493301277</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653493301277</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"He implementado el método sumar y funciona correctamente.\">\n      <created>1653493466119</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653493466119</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.\">\n      <created>1653494788212</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653494788212</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.\">\n      <created>1653494798048</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653494798048</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"origin/master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"He creado la clase CalculatorTest, que sera la encargada de realizar las pruebas de nuestro programa.&#10;Tambien he introducido el metodo addTest, que se encarga de realizar las pruebas de suma.\" />\n    <MESSAGE value=\"Creo la clase Calculator.\" />\n    <MESSAGE value=\"He implementado el método sumar y funciona correctamente.\" />\n    <MESSAGE value=\"Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 385944f1eb5f06aec9d245fcb2dbb1c78f267d09)
++++ b/.idea/workspace.xml	(date 1653588247946)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma.">
++    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Update">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -113,7 +113,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1653494798048</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Update">
++      <created>1653587727245</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1653587727245</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -127,7 +134,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="origin/master" />
++                        <option value="square_root" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -144,7 +151,8 @@
+     <MESSAGE value="Creo la clase Calculator." />
+     <MESSAGE value="He implementado el método sumar y funciona correctamente." />
+     <MESSAGE value="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma." />
++    <MESSAGE value="Update" />
++    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
