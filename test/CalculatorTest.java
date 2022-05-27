@@ -70,4 +70,23 @@ public class CalculatorTest {
         //assert
         assertEquals(result, calc);
     }
+
+    // Método que comprueba si la raíz cuadrada de un número es correcta
+    @Test
+    public void squareRootTest(){
+        // arrange
+
+        double result = 3;
+        double number = 9;
+
+        Calculator calculator = new Calculator();
+
+        // act
+
+        double squareRoot = calculator.sqr(number);
+
+        //assert
+
+        assertEquals(result, squareRoot);
+    }
 }
