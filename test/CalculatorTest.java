@@ -76,8 +76,8 @@ public class CalculatorTest {
     public void squareRootTest(){
         // arrange
 
-        double result = 3;
-        double number = 9;
+        double result = 3.16227766;
+        double number = 10;
 
         Calculator calculator = new Calculator();
 

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator">
+    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="UPDATE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="divide" />
+        <entry key="$PROJECT_DIR$" value="squareroot" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest.squareRootTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,12 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.squareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="squareRootTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.squareRootTest" />
+        <item itemvalue="JUnit.CalculatorTest.multiplyTest" />
         <item itemvalue="JUnit.CalculatorTest.divideTest" />
         <item itemvalue="JUnit.CalculatorTest.addTest" />
-        <item itemvalue="JUnit.CalculatorTest.multiplyTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,33 +158,33 @@
       <option name="project" value="LOCAL" />
       <updated>1653494798048</updated>
     </task>
-    <task id="LOCAL-00006" summary="Update">
-      <created>1653588770570</created>
+    <task id="LOCAL-00006" summary="Implemento la prueba de raiz cuadrada y da error de clase no existente.">
+      <created>1653594336560</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1653588770571</updated>
+      <updated>1653594336560</updated>
     </task>
-    <task id="LOCAL-00007" summary="update">
-      <created>1653592255553</created>
+    <task id="LOCAL-00007" summary="Ahora tengo que implementar la raiz cuadrada porque falla el resultado.">
+      <created>1653594601317</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1653592255553</updated>
+      <updated>1653594601317</updated>
     </task>
-    <task id="LOCAL-00008" summary="update">
-      <created>1653592374024</created>
+    <task id="LOCAL-00008" summary="implemento la segunda prueba que comparara el resultado con el valor obtenido.&#10;La prueba 2 de la raiz la consideraremos prueba de validación, ya que es mas especifica de lo que el usuario necesita finalmente para implementar la app.">
+      <created>1653594816909</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1653592374024</updated>
+      <updated>1653594816909</updated>
     </task>
-    <task id="LOCAL-00009" summary="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator">
-      <created>1653592451542</created>
+    <task id="LOCAL-00009" summary="UPDATE">
+      <created>1653594886342</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1653592451542</updated>
+      <updated>1653594886342</updated>
     </task>
     <option name="localTasksCounter" value="10" />
     <servers />
@@ -187,7 +200,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/multiply" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -204,10 +217,11 @@
     <MESSAGE value="Creo la clase Calculator." />
     <MESSAGE value="He implementado el método sumar y funciona correctamente." />
     <MESSAGE value="Realizo varias pruebas y me obliga a tipar las variables como double.&#10;&#10;Acabo de realizar las pruebas y se queda validada la parte de la suma." />
-    <MESSAGE value="Update" />
-    <MESSAGE value="update" />
-    <MESSAGE value="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator" />
+    <MESSAGE value="Implemento la prueba de raiz cuadrada y da error de clase no existente." />
+    <MESSAGE value="Ahora tengo que implementar la raiz cuadrada porque falla el resultado." />
+    <MESSAGE value="implemento la segunda prueba que comparara el resultado con el valor obtenido.&#10;La prueba 2 de la raiz la consideraremos prueba de validación, ya que es mas especifica de lo que el usuario necesita finalmente para implementar la app." />
+    <MESSAGE value="UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
