@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator">
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa4d9248-43ee-4335-9160-26c17c086ef5" name="Changes" comment="UPDATE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653592451542</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UPDATE">
+      <created>1653681448338</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653681448338</updated>
+    </task>
+    <task id="LOCAL-00011" summary="UPDATE">
+      <created>1653681558081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653681558081</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +230,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="update" />
     <MESSAGE value="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo las pruebas de la division y falla, me dice por donde tengo que seguir, en este caso por crear el metodo divide en la clase Calculator" />
+    <MESSAGE value="UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
