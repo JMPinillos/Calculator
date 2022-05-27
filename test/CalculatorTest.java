@@ -83,7 +83,7 @@ public class CalculatorTest {
 
         // act
 
-        double squareRoot = calculator.sqr(number);
+        double squareRoot = calculator.sqrt(number);
 
         //assert
 
