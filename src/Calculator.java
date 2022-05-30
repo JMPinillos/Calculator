@@ -1,7 +1,5 @@
 public class Calculator {
 
-    // Método para calcular la raíz cuadrada de un número de precisión doble.
-
     public double sqrt(double num1){
         int antSqrt = 0;
         int postSqrt = 0;
