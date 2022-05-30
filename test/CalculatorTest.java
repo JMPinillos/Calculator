@@ -76,18 +76,15 @@ public class CalculatorTest {
     @Test
     public void squareRootTest(){
         // arrange
-
         double result = 3.16227766;
         double number = 10;
 
         Calculator calculator = new Calculator();
 
         // act
-
         double squareRoot = calculator.sqrt(number);
 
         //assert
-
         assertTrue(result-squareRoot <= 0.001);
     }
 }
