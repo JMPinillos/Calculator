@@ -9,82 +9,176 @@ public class CalculatorTest {
     @Test
     public void addTest(){
         //arrange
-        double result = 7;
-        double number1 = 2;
-        double number2 = 5;
+        class ChainData{
+            double result;
+            double number1;
+            double number2;
+            ChainData(double number1, double number2, double result) {
+                this.number1 = number1;
+                this.number2 = number2;
+                this.result = result;
+            }
+        }
+
+        ChainData[] tests = {
+                new ChainData(2, 5,7),
+                new ChainData(-3, -7, -10),
+                new ChainData(-2,10,8),
+                new ChainData(1.5,1,2.5),
+        };
 
         Calculator calculator = new Calculator();
 
         //act
-        double calc = calculator.add(number1,number2);
+        double calc;
 
-        //assert
-        assertEquals(result, calc);
+        for(ChainData test : tests) {
+            calc = calculator.add(test.number1, test.number2);
+            //assert
+            assertEquals(test.result, calc);
+        }
     }
     //METODO QUE COMPRUEBA SI LA RESTA DE DOS NUMEROS ES CORRECTA
     @Test
     public void subtractTest(){
         //arrange
-        float result = 5;
-        float number1 = 10;
-        float number2 = 5;
+        class ChainData{
+            double result;
+            double number1;
+            double number2;
+            ChainData(double number1, double number2, double result) {
+                this.number1 = number1;
+                this.number2 = number2;
+                this.result = result;
+            }
+        }
+
+        ChainData[] tests = {
+                new ChainData(2, 5,-3),
+                new ChainData(-3, -7, 4),
+                new ChainData(-2,10,-12),
+                new ChainData(1.5,0.5,1),
+        };
 
         Calculator calculator = new Calculator();
 
         //act
-        float calc = calculator.subtract(number1,number2);
+        double calc;
 
-        //assert
-        assertEquals(result, calc);
+        for(ChainData test : tests) {
+            calc = calculator.subtract(test.number1, test.number2);
+            //assert
+            assertEquals(test.result, calc);
+        }
     }
 
     //METODO QUE COMPRUEBA SI LA MULTIPLICACION DE DOS NUMEROS ES CORRECTA
     @Test
     public void multiplyTest(){
         //arrange
-        double result = 19;
-        double number1 = 10;
-        double number2 = 1.9;
+        class ChainData{
+            double result;
+            double number1;
+            double number2;
+            ChainData(double number1, double number2, double result) {
+                this.number1 = number1;
+                this.number2 = number2;
+                this.result = result;
+            }
+        }
+
+        ChainData[] tests = {
+                new ChainData(2, 5,10),
+                new ChainData(-3, -7, 21),
+                new ChainData(-2,10,-20),
+                new ChainData(1.5,2,3),
+        };
 
         Calculator calculator = new Calculator();
 
         //act
-        double calc = calculator.multiply(number1,number2);
+        double calc;
 
-        //assert
-        assertEquals(result, calc);
+        for(ChainData test : tests) {
+            calc = calculator.multiply(test.number1, test.number2);
+            //assert
+            assertEquals(test.result, calc);
+        }
     }
 
     //METODO QUE COMPRUEBA SI LA DIVISION DE DOS NUMEROS ES CORRECTA
     @Test
     public void divideTest(){
         //arrange
-        double result = -2.5;
-        double number1 = 5;
-        double number2 = -2;
+         class ChainData{
+             double result;
+             double number1;
+             double number2;
+             ChainData(double number1, double number2, double result) {
+                 this.number1 = number1;
+                 this.number2 = number2;
+                 this.result = result;
+            }
+        }
+
+        ChainData[] tests = {
+                new ChainData(10, -2,-5),
+                new ChainData(50, 0, 0),
+                new ChainData(15,10,1.5),
+                new ChainData(0,10,0),
+        };
 
         Calculator calculator = new Calculator();
 
         //act
-        double calc = calculator.divide(number1,number2);
-
-        //assert
-        assertEquals(result, calc);
+        double calc;
+        for(ChainData test : tests) {
+            try {
+                calc = calculator.divide(test.number1, test.number2);
+                //assert
+                assertEquals(test.result, calc);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
     }
 
     // Método que comprueba si la raíz cuadrada de un número es correcta
     @Test
     public void squareRootTest(){
         // arrange
-        double result = 3.16227766;
-        double number = 10;
+
+        double result;
+        double number;
+        class ChainData{
+            double result;
+            double number;
+
+            ChainData(double number, double result) {
+                this.number = number;
+                this.result = result;
+            }
+        }
+
+        ChainData[] tests = {
+                new ChainData(10, 3.16227766),
+                new ChainData(-10, -3.16227766),
+                new ChainData(4,2),
+                new ChainData(0,0),
+        };
 
         Calculator calculator = new Calculator();
 
         // act
-        double squareRoot = calculator.sqrt(number);
-
-        //assert
-        assertTrue(result-squareRoot <= 0.001);
+        double calc;
+        for(ChainData test : tests) {
+            try {
+                calc = calculator.sqrt(test.number);
+                //assert
+                assertTrue(test.result-calc <= 0.001);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
     }
 }
